@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instagram-like Post Card</title>
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <div class="post-card">
+    <!-- Header -->
+    <div class="post-header">
+      <img src="Images/social.jpg" alt="User Avatar" class="avatar">
+      <span class="username">Jane Doe</span>
+    </div>
+    
+    <!-- Image -->
+    <div class="image-container">
+      <img src="Images/social.jpg" alt="Post Image" class="post-image">
+      <i class="ri-heart-fill overlay-heart"></i>
+    </div>
+
+    <!-- Description -->
+    <div class="post-description">
+      <p>
+        <strong>Jane Doe</strong> Beautiful sunset at the beach! 🌅 #NatureLover
+      </p>
+    </div>
+
+    <!-- Actions -->
+    <div class="post-actions">
+      <button class="action-btn like-btn" id="like-btn"><i class="ri-heart-line"></i><span> Like</span></button>
+      <button class="action-btn comment-btn">💬 Comment</button>
+      <button class="action-btn share-btn">🔗 Share</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
